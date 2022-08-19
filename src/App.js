@@ -3,7 +3,10 @@ import './App.css';
 
 function App() {
   return (
-    <h1>React Yahtzee</h1>
+    <div>
+      <h1>React Yahtzee</h1>
+      <div>Game board here</div>
+    </div>
   );
 }
 
