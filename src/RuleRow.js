@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './RuleRow.scss';
 
 function RuleRow({ doScore, name, score, description }) {
   const disabled = score !== undefined;

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Die.scss'
+
 const numberWords = ['one', 'two', 'three', 'four', 'five', 'six'];
 
 function Die({ locked, handleClick, val, idx, disabled, rolling }) {

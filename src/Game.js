@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Dice from './Dice';
 
+import './Game.scss';
 import ScoreTable from './ScoreTable';
 
 const NUM_DICE = 5;

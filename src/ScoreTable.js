@@ -16,6 +16,7 @@ import {
   chance
 } from './Rules';
 
+import './ScoreTable.scss';
 
 function ScoreTable({ scores, doScore }) {
   function getTotalScore() {

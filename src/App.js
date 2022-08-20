@@ -2,6 +2,7 @@
 import React from 'react';
 import Game from './Game';
 
+import './App.scss';
 
 function App() {
   return (

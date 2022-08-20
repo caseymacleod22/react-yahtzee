@@ -1,5 +1,8 @@
+
 import React from 'react';
 import Die from './Die';
+
+import './Dice.scss';
 
 function Dice({ dice, handleClick, locked, disabled, rolling }) {
   return (
