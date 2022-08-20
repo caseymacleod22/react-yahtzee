@@ -7,7 +7,7 @@ function Die({ locked, handleClick, val, idx, disabled, rolling }) {
     handleClick(idx);
   };
 
-  console.log(Math.floor(Math.random() * 10))
+//   console.log(Math.floor(Math.random() * 10))
 
   let classes = `Die fas fa-dice-${numberWords[val - 1]} fa-5x`;
   if (locked) classes += ' Die-locked';
