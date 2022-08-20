@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Die from './Die'
 
 const numDice = 5
 const numRolls = 3
@@ -30,9 +31,7 @@ function Game() {
 function App() {
   return (
     <div>
-      <h1>React Yahtzee</h1>
-      <div>Score Card here</div>
-      <div>Game board here</div>
+      <Die />
     </div>
   );
 }
