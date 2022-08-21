@@ -1,6 +1,5 @@
 import React from 'react';
-
-import './Die.scss'
+import './Die.scss';
 
 const numberWords = ['one', 'two', 'three', 'four', 'five', 'six'];
 
@@ -9,13 +8,11 @@ function Die({ locked, handleClick, val, idx, disabled, rolling }) {
     handleClick(idx);
   };
 
-//   console.log(Math.floor(Math.random() * 10))
-
   let classes = `Die fas fa-dice-${numberWords[val - 1]} fa-5x`;
   if (locked) classes += ' Die-locked';
   if (rolling) classes += ' Die-rolling';
 
-  return <i className={classes} onClick={handleClicked} disabled={disabled} />;
+  return <div className={classes} onClick={handleClicked} disabled={disabled}></div>;
 }
 
 export default Die;
