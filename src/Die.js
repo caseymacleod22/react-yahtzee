@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Die.scss';
+// import './Die.scss';
 
 const numberWords = ['one', 'two', 'three', 'four', 'five', 'six'];
 
